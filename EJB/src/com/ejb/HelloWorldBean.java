@@ -14,7 +14,11 @@ public class HelloWorldBean implements HelloWorldBeanRemote, HelloWorldBeanLocal
      * Default constructor. 
      */
     public HelloWorldBean() {
-        // TODO Auto-generated constructor stub
     }
+
+	@Override
+	public String proccessHello() {
+		return "Hello World from Session bean";
+	}
 
 }
