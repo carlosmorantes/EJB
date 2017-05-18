@@ -21,4 +21,6 @@ public class HelloWorldBean implements HelloWorldBeanRemote, HelloWorldBeanLocal
 		return "Hello World from Session bean";
 	}
 
+	
+
 }
